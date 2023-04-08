@@ -1,0 +1,25 @@
+number=[10, 0, -1, 7, 4, 2, 9]
+print(number)
+name=['obah', 'sylva', 'Othuke', 'frank']
+print(name)
+mix_list=['harri', 2, True, 10.2]
+print(mix_list)
+print(len(name))
+print(name[-1])
+print(number[1:3:2])
+number.sort()
+print(number)
+number.reverse()
+print(number)
+number.append(45)
+print(number)
+number.insert(2,33)
+print(number)
+number.extend([5,67,90,66])
+print(number)
+number[1]=77
+print(number)
+number.remove(0)
+print(number)
+number.pop()
+print(number)
